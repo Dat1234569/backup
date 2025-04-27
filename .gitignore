@@ -1,3 +1,10 @@
-db/
-backup/
+# Bỏ qua toàn bộ file trong db/ trừ file .keep
+db/*
+!db/.keep
+
+# Bỏ qua toàn bộ file trong backup/ trừ file .keep
+backup/*
+!backup/.keep
+
+# Bỏ file môi trường bảo mật
 .env
